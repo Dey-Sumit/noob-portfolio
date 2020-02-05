@@ -66,6 +66,14 @@ a:hover {
   color: #FFC200;
 }
 
+.mt_80 {
+  margin-top: 80px;
+}
+
+.mt_50 {
+  margin-top: 55px;
+}
+
 .quote {
   background: #474559;
   color: #ffffff;
@@ -92,4 +100,13 @@ a:hover {
   color: #FFC200;
   /* font-family: 'Kaushan Script', cursive; */
   font-family: 'Noto Serif', serif;
+}
+
+/* project section */
+.project_section {
+  text-align: center;
+}
+
+.header_text {
+  display: inline;
 }
