@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
+/* #00FF66 */
 body {
   padding: 0;
   margin: 0;
@@ -12,6 +13,16 @@ font-family: 'Courier Prime', monospace */
 
 .text_align {
   text-align: center;
+}
+
+.py-50 {
+  padding: 50px 0;
+}
+
+.box_shadow {
+  -webkit-box-shadow: -9px -1px 7px -1px rgba(203, 201, 224, 1);
+  -moz-box-shadow: -9px -1px 7px -1px rgba(203, 201, 224, 1);
+  box-shadow: -9px -1px 7px -1px rgba(203, 201, 224, 1);
 }
 
 .dis_ib {
@@ -107,6 +118,59 @@ a:hover {
   text-align: center;
 }
 
+.project_section h2 {
+  color: #FFC200;
+  font-size: 45px;
+}
+
 .header_text {
   display: inline;
+}
+
+/* skill section */
+.skill h3, p {
+  display: block;
+}
+
+.timeline-wrapper {
+  position: relative;
+  padding: 22px 0;
+}
+
+.timeline-wrapper:before {
+  content: "";
+  background: #474559;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  left: 38px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.timeline-wrapper:last-child:before {
+  height: 0;
+}
+
+.timeline-logo {
+  background: #474559;
+  border-radius: 100%;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.timeline-logo span {
+  color: aliceblue;
+}
+
+.timeline_info {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 432px;
+  margin-left: 6em;
 }
