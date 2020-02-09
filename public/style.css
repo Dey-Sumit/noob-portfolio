@@ -175,6 +175,20 @@ a:hover {
   margin-left: 6em;
 }
 
+.timeline-wrapper i {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
 /* contact */
 .contact-form .submit-btn {
   background: #FFC200;
