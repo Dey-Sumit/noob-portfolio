@@ -174,3 +174,14 @@ a:hover {
   max-width: 432px;
   margin-left: 6em;
 }
+
+/* contact */
+.contact-form .submit-btn {
+  background: #FFC200;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
