@@ -74,6 +74,7 @@ a {
 
 /* check a:hover */
 a:hover {
+  text-decoration: none;
   color: #FFC200;
 }
 
@@ -125,6 +126,46 @@ a:hover {
 
 .header_text {
   display: inline;
+}
+
+.carousel-item img {}
+
+.caption_class {
+  background: rgba(0, 0, 0, 0.31);
+  padding: 14px 20px 25px;
+  border-radius: 20px;
+}
+
+.caption_class h5 {
+  color: #ecbc44;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.caption_class p {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.caption_class .links {
+  /* display: flex; */
+}
+
+.caption_class a {
+  padding: 10px;
+  padding: 13px 40px;
+  font-size: 15px;
+  border-radius: 0px;
+  margin-right: 0px;
+}
+
+.caption_class a i {
+  vertical-align: sub;
+}
+
+.caption_class a:hover {
+  color: #eee;
+  background-color: #ecbc44;
 }
 
 /* skill section */
