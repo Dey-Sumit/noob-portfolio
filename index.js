@@ -3,9 +3,9 @@ const express = require('express');
 const http = require('http');
 //create an express object
 const app = express();
-
+const port = process.env.PORT || 3000;
 //listen to a PORT
-app.listen(3000, () => console.log("listening on 3000"));
+app.listen(port, () => console.log("listening on 3000"));
 
 //set up the application middleware using app.use()
 /*Middleware functions are functions that have access to the request object (req),
