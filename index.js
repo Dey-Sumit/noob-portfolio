@@ -19,6 +19,8 @@ app.get('/', function(req, res) {
     root: __dirname
   })
 });
-
+// app.post('/', function(req, res)) {
+//
+// }
 //host the static folder
 app.use(express.static('public'));
